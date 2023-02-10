@@ -1,0 +1,10 @@
+# IDE
+.idea
+
+# Generated
+.venv
+
+# Misc
+test.sh
+working/
+.local.env

@@ -1,0 +1,11 @@
+name: 'Splunk Audit Action'
+description: 'Sends the Github event payload to Splunk'
+
+runs:
+  using: "composite"
+  steps:
+    - run: pip install -r ${{ github.action_path }}/requirements.txt
+      shell: bash
+    - run: |
+        ${{ github.action_path }}/action.py
+      shell: bash
