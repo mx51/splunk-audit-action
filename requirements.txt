@@ -1,2 +1,4 @@
 PyGithub==1.57
 requests==2.28.2
+jsonpath-ng==1.5.3
+munch==2.5.0
